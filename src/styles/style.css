@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&family=Roboto+Mono&display=swap');
+
+:root {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)), url(https://pbs.twimg.com/media/EkwflwIVkAAJFjV?format=jpg&name=large) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    padding: 2rem;
+}
+
+header .wrapper {
+    max-width: 1300px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header .logo {
+    font-family: 'Righteous', sans-serif;
+    font-size: 2rem;
+}
+
+header ul {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+    font-size: 1.4rem;
+}
+
+header ul li {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+main .wrapper {
+    font-size: 2rem;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .wrapper h3 {
+    font-size: 4rem;
+}
+
+main .wrapper p {
+    text-align: end;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    display: flex;
+    color: white;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
