@@ -30,6 +30,7 @@ header .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 2rem;
     color: white;
 }
 
@@ -41,36 +42,13 @@ header .logo {
 header ul {
     font-family: 'Roboto', sans-serif;
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     list-style-type: none;
     font-size: 1.4rem;
 }
 
 header ul li {
     cursor: pointer;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
-
-main .wrapper {
-    font-size: 2rem;
-    max-width: 1300px;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-main .wrapper h3 {
-    font-size: 4rem;
-}
-
-main .wrapper p {
-    text-align: end;
 }
 
 footer {

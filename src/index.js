@@ -1,4 +1,8 @@
-import './styles/style.css';
+import './styles/main.css';
+
+import './styles/home.css';
+import './styles/menu.css';
+import './styles/contact.css';
 
 import home from './pages/home';
 import menu from './pages/menu';

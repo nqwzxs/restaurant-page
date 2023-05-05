@@ -1,0 +1,23 @@
+.home {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .wrapper {
+    font-size: 2rem;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.home .wrapper h3 {
+    font-size: 4rem;
+}
+
+.home .wrapper p {
+    text-align: end;
+}

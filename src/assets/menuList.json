@@ -1,0 +1,26 @@
+[
+  {
+    "name": "California Roll",
+    "description": "Crab, avocado, and cucumber rolled in seaweed and sushi rice"
+  },
+  {
+    "name": "Spicy Tuna Roll",
+    "description": "Tuna and spicy mayo rolled in seaweed and sushi rice"
+  },
+  {
+    "name": "Dragon Roll",
+    "description": "Shrimp tempura, avocado, and cucumber topped with eel and eel sauce"
+  },
+  {
+    "name": "Margherita",
+    "description": "Tomato sauce, mozzarella, and fresh basil"
+  },
+  {
+    "name": "Pepperoni",
+    "description": "Tomato sauce, mozzarella, and pepperoni"
+  },
+  {
+    "name": "Onion Rings",
+    "description": "Battered and fried onion rings with dipping sauce"
+  }
+]

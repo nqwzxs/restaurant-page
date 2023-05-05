@@ -1,12 +1,13 @@
 const home = function() {
     const main = document.createElement('main');
+    main.classList.add('home');
 
     const wrapper = document.createElement('div');
     wrapper.classList.add('wrapper');
     main.appendChild(wrapper);
 
     const h3 = document.createElement('h3');
-    h3.textContent = 'Welcome to Umamiya Cafe webpage!';
+    h3.textContent = 'Welcome to Umamiya Cafe homepage!';
     wrapper.appendChild(h3);
 
     const p = document.createElement('p');
