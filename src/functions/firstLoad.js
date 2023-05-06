@@ -1,12 +1,11 @@
 import header from '../elements/header';
 import home from "../pages/home";
-import menu from '../pages/menu'
 
 const firstLoad = function() {
     const content = document.querySelector('#content');
 
     content.appendChild(header());
-    content.appendChild(menu());
+    content.appendChild(home());
 }
 
 export default firstLoad;
