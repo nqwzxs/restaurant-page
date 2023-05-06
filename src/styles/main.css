@@ -17,6 +17,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.6)), url(https://pbs.twimg.com/media/EkwflwIVkAAJFjV?format=jpg&name=large) no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     color: white;
 }
 
